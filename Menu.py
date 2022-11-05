@@ -82,7 +82,7 @@ def list ():
     again()
 
 def again():
-    list_again = input('''Would you like to see main menu again? (Y/N)''')
+    list_again = input('''Would you like to try again? (Y/N)''')
 
     if list_again.upper() == 'Y':
         list()
